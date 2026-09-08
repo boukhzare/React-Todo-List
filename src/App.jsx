@@ -1,8 +1,13 @@
+import Header from "./components/Header";
+import TodoForm from "./components/TodoForm";
 function App()
 {
   return (
-    <div className="min-h-screen flex items-center justify-center
-     bg-linear-to-r from-blue-600 ">hello wadie</div>
+    <div>
+      <Header />
+    <TodoForm />
+    </div>
+    
   )
 }
 
