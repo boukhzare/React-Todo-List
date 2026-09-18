@@ -1,14 +1,17 @@
-import Header from "./components/Header";
-import TodoForm from "./components/TodoForm";
+import Header from "./components/Header"  
+
+
 function App()
 {
-  return (
+  return(
     <div>
-      <Header />
-    <TodoForm />
+      <Header/>
+     {/* <TodoForm/> */}
     </div>
     
   )
 }
 
-export default App;
+
+
+export default App
